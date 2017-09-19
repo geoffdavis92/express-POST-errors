@@ -7,6 +7,11 @@ server.engine('html',hbs.__express)
 server.set("view engine", "html");
 
 server.use(bodyParser.json());
+server.use(
+  bodyParser.urlencoded({
+    extended: true,
+  })
+);
 
 console.log('listening on 4004')
 server.listen(4004);
