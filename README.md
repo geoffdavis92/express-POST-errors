@@ -8,7 +8,7 @@ Run `yarn` or `npm i` to install all dependencies.
 
 ## Start the server
 
-Run `node index.js` to start the server, and open [localhost:4004](//localhost:4004) to view the page.
+Run `node index.js` to start the server, and open [localhost:4004](http://localhost:4004) to view the page.
 
 ## Perform a `POST` request
 
